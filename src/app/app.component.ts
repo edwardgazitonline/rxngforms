@@ -11,6 +11,7 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+[x: string]: boolean;
   firstNameControl = new FormControl('First');
   lastNameControl = new FormControl('Last');
   pic: string =
@@ -34,6 +35,5 @@ export class AppComponent {
   };
 }
 
-function hidePicture() {
-throw new Error('Function not implemented.');
+
 }
