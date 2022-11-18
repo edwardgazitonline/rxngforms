@@ -22,7 +22,7 @@ export class AppComponent {
   constructor() {}
 
   changeName() {
-    this.firstNameControl.setValue('Initial');
+    this.firstNameControl.setValue('Initial' + " EdwardGazitFirstName");
     this.lastNameControl.setValue('edwardsLastName');
   }
 }
