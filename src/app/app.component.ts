@@ -18,6 +18,8 @@ export class AppComponent {
 
   Image: string =
     'https://dbkh.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/11/14131816/Karrar-drone-800x445.jpg';
+  
+    hide: boolean;
 
   constructor() {}
 
@@ -26,4 +28,11 @@ export class AppComponent {
     this.lastNameControl.setValue('edwardsLastName');
    
   }
+  hidePpicture(){
+    this.hide=true;
+  };
+}
+
+function hidePicture() {
+throw new Error('Function not implemented.');
 }
