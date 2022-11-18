@@ -1,0 +1,9 @@
+* {
+  font-family: Lato;
+  font-size: 16px;
+}
+
+label, button {
+  display: block;
+  padding: 5px;
+}

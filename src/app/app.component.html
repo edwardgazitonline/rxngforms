@@ -1,0 +1,13 @@
+<h1>Application Form</h1>
+<label>
+    First Name:
+    <input type="text" [formControl]="firstNameControl">
+</label>
+<label>
+    Last Name:
+    <input type="text" [formControl]="lastNameControl">
+</label>
+<br>
+<button type="button" (click)="changeName()">Change My Last Name!</button>
+<br>
+<img alt="item" [src]="pic" width="=100" height="100">
