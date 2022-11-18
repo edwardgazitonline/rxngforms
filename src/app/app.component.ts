@@ -11,7 +11,7 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-[x: string]: boolean;
+ 
   firstNameControl = new FormControl('First');
   lastNameControl = new FormControl('Last');
   pic: string =
@@ -19,20 +19,17 @@ export class AppComponent {
 
   Image: string =
     'https://dbkh.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/11/14131816/Karrar-drone-800x445.jpg';
-  
-    hide: boolean;
+
+  hide:boolean;  
 
   constructor() {}
 
   changeName() {
     this.firstNameControl.setValue('Initial' + ' EdwardGazitsFirstName');
     this.lastNameControl.setValue('edwardsLastName');
-   
   }
-  hidePpicture(){
-    //this.hide = false;
-    return this.hide=!this.hide;
+
+  hidePicture(){
+    return this.hide = true;
   };
 }
-
-
