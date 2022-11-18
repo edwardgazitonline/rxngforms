@@ -19,7 +19,7 @@ export class AppComponent {
   Image: string =
     'https://dbkh.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/11/14131816/Karrar-drone-800x445.jpg';
   
-    hide: boolean;
+    hide: boolean = true;
 
   constructor() {}
 
@@ -29,7 +29,8 @@ export class AppComponent {
    
   }
   hidePpicture(){
-    this.hide = true;
+    this.hide = false;
+    return this.hide=false;
   };
 }
 
