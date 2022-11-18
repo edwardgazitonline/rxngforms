@@ -29,7 +29,7 @@ export class AppComponent {
    
   }
   hidePpicture(){
-    this.hide="false";
+    this.hide = true;
   };
 }
 
