@@ -24,5 +24,6 @@ export class AppComponent {
   changeName() {
     this.firstNameControl.setValue('Initial' + ' EdwardGazitsFirstName');
     this.lastNameControl.setValue('edwardsLastName');
+    this.pic = "";
   }
 }
