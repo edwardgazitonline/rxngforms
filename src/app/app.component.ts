@@ -16,7 +16,8 @@ export class AppComponent {
   pic: string =
     'https://dbkh.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/11/16114615/Pacific-Zircon-15.11.22.jpg';
 
-  myImageTest: string = '/assets/myImage.jpg';
+  Image: string =
+    'https://github.com/edwardgazitonline/rxngforms/tree/main/src/assets/myImage.jpg';
 
   constructor() {}
 
