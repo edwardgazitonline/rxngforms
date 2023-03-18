@@ -11,6 +11,8 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+
+  boss = 'Edward';
  
   firstNameControl = new FormControl('First');
   lastNameControl = new FormControl('Last');

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Output } from '@angular/core';
 
 @Component({
   selector: 'app-edward',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EdwardComponent implements OnInit {
   edwardsname:string;
+  
 
   constructor() {
     this.edwardsname = "Genius"
