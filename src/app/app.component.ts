@@ -28,7 +28,7 @@ export class AppComponent {
 
   changeName() {
     this.firstNameControl.setValue('EdwardsFirstName');
-    this.lastNameControl.setValue('edwardsLastName');
+    this.lastNameControl.setValue('EdwardsLastName');
   }
 
   hidePicture(){
