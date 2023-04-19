@@ -31,6 +31,12 @@ export class AppComponent {
     this.lastNameControl.setValue('EdwardsLastName');
   }
 
+  resetName(){
+    this.firstNameControl.setValue('Edward');
+    this.lastNameControlt.setValue('Gazit')
+
+  }
+
   hidePicture(){
     this.hide = !this.hide;
     return this.hide;
