@@ -5,6 +5,7 @@
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
@@ -33,7 +34,7 @@ export class AppComponent {
 
   resetName(){
     this.firstNameControl.setValue('Edward');
-    this.lastNameControlt.setValue('Gazit')
+    this.lastNameControl.setValue('Gazit');
 
   }
 
