@@ -21,7 +21,7 @@ export class AppComponent {
     'https://dbkh.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/11/16114615/Pacific-Zircon-15.11.22.jpg';
 
   Image: string =
-    'https://dbkh.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/11/14131816/Karrar-drone-800x445.jpg';
+    'https://ynet-pic1.yit.co.il/picserver5/crop_images/2023/04/22/B1ANYHZ7h/B1ANYHZ7h_0_0_850_479_0_x-large.jpg';
 
   hide:boolean = false;  
 
