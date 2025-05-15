@@ -5,37 +5,33 @@
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
-
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-
   boss = 'Edward';
- 
+
   firstNameControl = new FormControl('First');
   lastNameControl = new FormControl('Last');
 
-
-  hide:boolean = false;  
+  hide: boolean = false;
 
   constructor() {}
 
   changeName() {
-    this.firstNameControl.setValue('EdwardsFirstName');
-    this.lastNameControl.setValue('EdwardsLastName');
-  }
-
-  resetName(){
     this.firstNameControl.setValue('Edward');
     this.lastNameControl.setValue('Gazit');
-
   }
 
-  hidePicture(){
+  resetName() {
+    this.firstNameControl.setValue('F. resetted');
+    this.lastNameControl.setValue('L. resetted');
+  }
+
+  hidePicture() {
     this.hide = !this.hide;
     return this.hide;
-  };
+  }
 }
