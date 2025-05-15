@@ -26,8 +26,8 @@ export class AppComponent {
   }
 
   resetName() {
-    this.firstNameControl.setValue('F. resetted');
-    this.lastNameControl.setValue('L. resetted');
+    this.firstNameControl.setValue('F. Name resetted');
+    this.lastNameControl.setValue('L. Name resetted');
   }
 
   hidePicture() {
