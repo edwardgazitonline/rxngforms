@@ -21,8 +21,8 @@ export class AppComponent {
   constructor() {}
 
   changeName() {
-    this.firstNameControl.setValue('Edward');
-    this.lastNameControl.setValue('Gazit');
+    this.firstNameControl.setValue('Smolan');
+    this.lastNameControl.setValue('Smolensky');
   }
 
   resetName() {
